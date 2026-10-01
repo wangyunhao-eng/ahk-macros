@@ -17,7 +17,7 @@ BaseDPI := 800
 BaseCS := 0.36
 
 ; settings for prefrence (change to your setup)
-DPI := 200
+DPI := 1000
 CS := 1 ; camera sensitivity
 
 X := Round((Spin * BaseDPI * BaseCS) / (DPI * CS))
